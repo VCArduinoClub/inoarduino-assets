@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schema for INOArduino Lessons Index"
+  "type": "object",
+  "properties": {
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "lesson": {
+            "type": "string"
+          },
+          "id": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "simCode": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "lesson",
+          "id",
+          "title",
+          "description",
+          "file",
+          "simCode"
+        ]
+      }
+    }
+  },
+  "required": [
+    "lessons"
+  ]
+}
