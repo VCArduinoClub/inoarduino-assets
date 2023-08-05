@@ -25,6 +25,9 @@
           },
           "simCode": {
             "type": "string"
+          },
+          "element": {
+            "type": "string"
           }
         },
         "required": [
@@ -32,9 +35,7 @@
           "id",
           "title",
           "description",
-          "file",
-          "simCode"
-        ]
+          "file"        ]
       }
     }
   },
